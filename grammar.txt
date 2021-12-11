@@ -1,0 +1,10 @@
+S -> NP VP %pro0.8
+VP -> V NP %pro0.8
+VP -> VP PP %pro0.8
+V -> eat %pro0.8
+NP -> NP PP %pro0.8
+NP -> we %pro0.8
+NP -> sushi %pro0.8
+NP -> tuna %pro0.8
+PP -> P NP %pro0.8
+P -> with %pro0.8

@@ -1,0 +1,13 @@
+S -> NP VP 1.0 
+PP -> P NP 1.0 
+VP -> V NP 0.5 
+VP -> VP PP 0.5 
+NP -> NP PP 1.0 
+NP -> 'astronomers' 0.2 
+NP -> 'ears' 0.2 
+NP -> 'saw' 0.2 
+NP -> 'stars' 0.2 
+NP -> 'telescopes' 0.2 
+P -> 'with' 1.0 
+V -> 'saw' 1.0 
+, -> ',' 1.0 
